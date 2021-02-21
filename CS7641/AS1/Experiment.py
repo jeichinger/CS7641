@@ -519,7 +519,7 @@ def main(dataset1="", dataset2="", run_dt=True, run_nn=True, run_boost=True, run
 
             # Uncomment to plot range of max_depth parameter.
             print("Finding optimal depth of tree")
-            param_range = np.arange(10, 25, 1)
+            param_range = np.arange(1, 25, 1)
             dt.tune_hyper_parameter('max_depth', param_range, "DecisionTree")
 
             dt.model_params['max_depth'] = 20
