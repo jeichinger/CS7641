@@ -18,9 +18,8 @@ import Utils
 DATA_PATH = os.getcwd() + "/Data"
 LOG_PATH = os.getcwd() + "/Logs"
 
-def main(dataset1="", dataset2="", run_dt=True, run_nn=True, run_boost=True, run_svm=True, run_knn=True):
+def main(dataset1="earthquake_processed.csv", dataset2="diabetic.csv", run_dt=True, run_nn=True, run_boost=True, run_svm=True, run_knn=True):
 
-    print(LOG_PATH)
     sys.stdout = open(os.path.join(LOG_PATH, 'log' + time.strftime("%Y%m%d-%H%M%S") + ".txt"), 'w+')
 
     dt_param_grid_coarse = {
@@ -711,9 +710,9 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description='Args for experiment')
-    parser.add_argument('--dataset1', metavar='path', required=False, default="",
+    parser.add_argument('--dataset1', metavar='path', required=False, default="earthquake_processed.csv",
                         help='The path to dataset1')
-    parser.add_argument('--dataset2', metavar='path', required=False, default="",
+    parser.add_argument('--dataset2', metavar='path', required=False, default="diabetic.csv",
                         help='The path to dataset2')
     args = parser.parse_args()
 
