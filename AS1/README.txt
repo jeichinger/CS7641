@@ -8,6 +8,8 @@ The original datasets can be found at these links:
 https://www.kaggle.com/mullerismail/richters-predictor-modeling-earthquake-damage
 https://archive.ics.uci.edu/ml/datasets/Diabetic+Retinopathy+Debrecen+Data+Set
 
+The zip file containing my code can be pulled from the following link: https://github.com/jeichinger/CS7641/blob/master/AS1.zip
+
 The modified datasets(Described in report) can be found in the Data folder.
 
 To assist in running the experiment code, I've created a yml file located in the AS1 root directory. Simply create a virtual envirionment from the file, activate it, and run the Experiment.py file.
