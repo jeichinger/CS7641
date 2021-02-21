@@ -5,8 +5,12 @@ For Assignment 1 analysis I utilized sklearn. A lot of the code I used can be fo
 - Sklearn source code for making confusion matricies. Copied and adapted to make matricies look neater/ fit in report.
 
 The original datasets can be found at these links:
+
 https://www.kaggle.com/mullerismail/richters-predictor-modeling-earthquake-damage
+
 https://archive.ics.uci.edu/ml/datasets/Diabetic+Retinopathy+Debrecen+Data+Set
+-Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
+The dataset is based on features extracted from the Messidor image dataset: [Web Link].
 
 The zip file containing my code can be pulled from the following link: https://github.com/jeichinger/CS7641/blob/master/AS1.zip
 

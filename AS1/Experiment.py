@@ -193,7 +193,7 @@ def main(dataset1="earthquake_processed.csv", dataset2="diabetic.csv", run_dt=Tr
             dt.generate_learning_curves("CV Learning Curve after Coarse Grid Search for Pre-Pruning","DecisionTree")
 
             print("Finding optimal depth of tree", flush=True)
-            param_range = np.arange(1, 25, 1)
+            param_range = np.arange(1, 14, 1)
             dt.tune_hyper_parameter('max_depth', param_range, "DecisionTree")
 
             dt.model_params['max_depth'] = 6
