@@ -1,0 +1,9 @@
+name: CS7641
+
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-learn
