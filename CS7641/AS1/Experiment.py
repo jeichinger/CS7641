@@ -447,7 +447,7 @@ def main(dataset1="earthquake_processed.csv", dataset2="diabetic.csv", run_dt=Tr
             svm_poly.model_params['kernel'] = 'poly'
             svm_poly.update_and_refit_model()
 
-            param_range = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11 , 12]
+            param_range = [2, 3, 4, 5, 6, 7,]
             svm_poly.tune_hyper_parameter('degree', param_range, "SVMPoly", 1)
 
             svm_poly.model_params['degree'] = 3
@@ -664,7 +664,7 @@ def main(dataset1="earthquake_processed.csv", dataset2="diabetic.csv", run_dt=Tr
             param_range = np.arange(1, 25, 1)
             knn.tune_hyper_parameter('n_neighbors', param_range, "KNN", 1)
 
-            knn.model_params['n_neighbors'] = 17
+            knn.model_params['n_neighbors'] = 20
             knn.update_and_refit_model()
 
             knn.generate_learning_curves("Learning Curve After Tuning K", "KNN")
@@ -672,7 +672,7 @@ def main(dataset1="earthquake_processed.csv", dataset2="diabetic.csv", run_dt=Tr
             param_range = ['euclidean', 'manhattan', 'chebyshev', 'hamming', 'canberra', 'braycurtis']
             knn.tune_hyper_parameter('metric', param_range, "KNN", 1)
 
-            knn.model_params['metric'] = 'braycurtis'
+            knn.model_params['metric'] = 'euclidean'
             knn.update_and_refit_model()
 
             diabetes_knn_score = knn.run_cross_val_on_test_set("K-NN")
