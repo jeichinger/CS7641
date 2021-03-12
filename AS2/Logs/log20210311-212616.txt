@@ -1,0 +1,22 @@
+Backend Qt5Agg is interactive backend. Turning interactive mode on.
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 out of  20 | elapsed:    5.2s remaining:  1.6min
+[Parallel(n_jobs=-1)]: Done   2 out of  20 | elapsed:    5.3s remaining:   47.4s
+[Parallel(n_jobs=-1)]: Done   3 out of  20 | elapsed:    5.3s remaining:   29.9s
+[Parallel(n_jobs=-1)]: Done   4 out of  20 | elapsed:    5.5s remaining:   22.1s
+[Parallel(n_jobs=-1)]: Done   5 out of  20 | elapsed:    5.8s remaining:   17.5s
+[Parallel(n_jobs=-1)]: Done   6 out of  20 | elapsed:    5.9s remaining:   13.8s
+[Parallel(n_jobs=-1)]: Done   7 out of  20 | elapsed:    5.9s remaining:   11.0s
+[Parallel(n_jobs=-1)]: Done   8 out of  20 | elapsed:    6.2s remaining:    9.3s
+[Parallel(n_jobs=-1)]: Done   9 out of  20 | elapsed:    6.4s remaining:    7.9s
+[Parallel(n_jobs=-1)]: Done  10 out of  20 | elapsed:    6.5s remaining:    6.5s
+[Parallel(n_jobs=-1)]: Done  11 out of  20 | elapsed:    6.6s remaining:    5.4s
+[Parallel(n_jobs=-1)]: Done  12 out of  20 | elapsed:    6.9s remaining:    4.6s
+[Parallel(n_jobs=-1)]: Done  13 out of  20 | elapsed:    7.1s remaining:    3.8s
+[Parallel(n_jobs=-1)]: Done  14 out of  20 | elapsed:    7.2s remaining:    3.1s
+[Parallel(n_jobs=-1)]: Done  15 out of  20 | elapsed:    7.3s remaining:    2.4s
+[Parallel(n_jobs=-1)]: Done  16 out of  20 | elapsed:    7.8s remaining:    1.9s
+[Parallel(n_jobs=-1)]: Done  17 out of  20 | elapsed:    8.0s remaining:    1.4s
+[Parallel(n_jobs=-1)]: Done  18 out of  20 | elapsed:    8.0s remaining:    0.9s
+[Parallel(n_jobs=-1)]: Done  20 out of  20 | elapsed:    8.3s remaining:    0.0s
+[Parallel(n_jobs=-1)]: Done  20 out of  20 | elapsed:    8.3s finished

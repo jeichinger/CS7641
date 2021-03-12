@@ -1,0 +1,2 @@
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Backend Qt5Agg is interactive backend. Turning interactive mode on.

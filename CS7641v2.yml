@@ -1,0 +1,11 @@
+name: CS7641v2
+
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - pip:
+    - mlrose-hiive==2.2.3

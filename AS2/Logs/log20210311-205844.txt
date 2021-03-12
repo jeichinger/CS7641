@@ -1,0 +1,14 @@
+Backend Qt5Agg is interactive backend. Turning interactive mode on.
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 out of 176 | elapsed:    9.5s remaining: 27.6min
+[Parallel(n_jobs=-1)]: Done   3 out of 232 | elapsed:   12.9s remaining: 16.4min
+[Parallel(n_jobs=-1)]: Done  10 out of 432 | elapsed:   23.3s remaining: 16.4min
+[Parallel(n_jobs=-1)]: Done  22 out of 516 | elapsed:   27.7s remaining: 10.4min
+[Parallel(n_jobs=-1)]: Done  33 out of 608 | elapsed:   32.9s remaining:  9.6min
+[Parallel(n_jobs=-1)]: Done  34 out of 609 | elapsed:   33.1s remaining:  9.3min
+[Parallel(n_jobs=-1)]: Done  43 out of 672 | elapsed:   36.7s remaining:  8.9min
+[Parallel(n_jobs=-1)]: Done  51 out of 740 | elapsed:   39.8s remaining:  9.0min
+[Parallel(n_jobs=-1)]: Done  74 out of 928 | elapsed:   49.7s remaining:  9.6min
+[Parallel(n_jobs=-1)]: Done 216 out of 1880 | elapsed:  1.9min remaining: 15.0min
+[Parallel(n_jobs=-1)]: Done 223 out of 1932 | elapsed:  2.0min remaining: 15.2min
+[Parallel(n_jobs=-1)]: Done 251 out of 2140 | elapsed:  2.2min remaining: 16.4min
